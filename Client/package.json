@@ -4,7 +4,8 @@
   "main": "aspnetcore-certs.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "vite --mode development"
+    "start": "vite --mode development",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",

@@ -29,6 +29,5 @@ Global
 		{034B3537-A21C-47BD-9CD2-577975B51897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{034B3537-A21C-47BD-9CD2-577975B51897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{034B3537-A21C-47BD-9CD2-577975B51897}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{034B3537-A21C-47BD-9CD2-577975B51897}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
