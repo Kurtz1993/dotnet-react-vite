@@ -1,0 +1,32 @@
+*auth.data*
+
+#logs
+*.log
+
+#firebase
+.firebase
+firebase.keys*.json
+
+# dependencies
+package-lock.json
+node_modules/
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+*.test*
+
+# production
+/build
+
+# misc
+.DS_Store
+.env*
+tsconfig.json
+vite.config.ts
+aspnetcore-certs.ts
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

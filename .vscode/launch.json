@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "name": "C#: CleanArch.WebApi Debug",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/CleanArch.WebApi/CleanArch.WebApi.csproj"
+    }
+  ]
+}
