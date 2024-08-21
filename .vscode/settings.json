@@ -1,0 +1,19 @@
+{
+  "git.ignoreLimitWarning": true,
+  "editor.wordWrapColumn": 120,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.autoIndent": "full",
+  "prettier.requireConfig": true,
+  "prettier.semi": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "eslint.run": "onSave",
+  "emmet.triggerExpansionOnTab": true,
+  "files.insertFinalNewline": true,
+  "dotenv.enableAutocloaking": false
+}

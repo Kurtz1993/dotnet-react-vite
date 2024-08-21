@@ -4,6 +4,12 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>App.Core</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="Entities\"/>
+        <Folder Include="Interfaces\"/>
+    </ItemGroup>
 
 </Project>
