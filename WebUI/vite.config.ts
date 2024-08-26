@@ -48,13 +48,8 @@ export default defineConfig(({mode}) => {
         },
         server: {
             proxy: {
-                '^/WeatherForecast': {
-                    changeOrigin: true,
-                    target,
-                    secure: false,
-                },
                 // proxy API requests to the ASP.NET backend
-                '/api': {
+                '^/api': {
                     changeOrigin: true,
                     secure: false,
                     rewrite: (path) => path.replace(/^\/api/, '/api'),

@@ -7,13 +7,13 @@ import type { GetWeatherForecastResponse } from './types.gen';
 
 export class WeatherForecastService {
     /**
-     * @returns WeatherForecast Success
+     * @returns WeatherForecast OK
      * @throws ApiError
      */
     public static get(): CancelablePromise<GetWeatherForecastResponse> {
         return __request(OpenAPI, {
             method: 'GET',
-            url: '/WeatherForecast'
+            url: '/api/WeatherForecast'
         });
     }
     
