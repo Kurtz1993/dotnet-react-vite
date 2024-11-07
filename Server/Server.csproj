@@ -7,7 +7,7 @@
         <UserSecretsId>1927c495-59b6-4856-bb01-d9ea19931202</UserSecretsId>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
         <SpaRoot>..\WebUI</SpaRoot>
-        <SpaProxyLaunchCommand>npm run start</SpaProxyLaunchCommand>
+        <SpaProxyLaunchCommand>pnpm run start</SpaProxyLaunchCommand>
         <SpaProxyServerUrl>https://localhost:5173</SpaProxyServerUrl>
         <RootNamespace>App.Server</RootNamespace>
     </PropertyGroup>
